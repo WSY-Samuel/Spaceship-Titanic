@@ -1,9 +1,7 @@
-# Spaceship-Titanic
-Forecasting transported
-#專案名稱：Spaceship-Titanic
-##來源：Kaggle
-###目標：預測旅客是否會被傳送到其他維度
-###比較模型：SVC、naive_bayes、LogisticRegression、KNN、DecisionTree、RandomForest、GradientBoost、AdaBoost、XGBoost
+# 專案名稱：Spaceship-Titanic
+## 來源：Kaggle
+### 目標：預測旅客是否會被傳送到其他維度
+### 比較模型：SVC、naive_bayes、LogisticRegression、KNN、DecisionTree、RandomForest、GradientBoost、AdaBoost、XGBoost
 專案介紹：EDA時發現 1. PassengerID：可細分為第幾組、第幾個成員、家庭成員順序的數量及是否為單身
 		 2. cabin:區分為'Deck'、'Side'及Number 編號
 	 	3. Age:依照年齡區間分6組
