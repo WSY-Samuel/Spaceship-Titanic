@@ -8,6 +8,7 @@
 	2. The biggest proportion of age in be transported is under 18 years old, on the other hand, the smallest  proportion of age in be transported is between 18 and 40 years old.  
  	3. Most of people won't buy other services and from earth.  
   	4. Majority of single traveler can be transported.  
+
 －Data Engineering:  
 	1. PassengerID -> New feature: group unit,which family members,the number of family members in sequence and whether they are single.  
 	2. cabin -> New feature: Deck,Side and Number  
