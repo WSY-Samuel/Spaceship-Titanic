@@ -3,7 +3,7 @@
 - **Target：Predict whether travelers will be transported to other dimensions(binary classification).**
 - **Models：SVC、naive_bayes、LogisticRegression、KNN、DecisionTree、RandomForest、GradientBoost、AdaBoost、XGBoost**
 ## Introduction：
-－Finding of EDA:  
+### Finding of EDA:  
 1. **Proportion of Target Variables:**
    - The distribution of the target variable (Transported) is nearly balanced between "Yes" and "No."
 
@@ -16,7 +16,7 @@
 4. **Marital Status Impact:**
    - The majority of single travelers appear to be more likely candidates for transportation.
 
-- Data Engineering:
+### Data Engineering:
 1. **PassengerID Transformation:**
    - **New Feature:** Group unit indicating family members, including the sequential number of family members and a flag for whether they are single.
 
