@@ -4,20 +4,36 @@
 ### Models：SVC、naive_bayes、LogisticRegression、KNN、DecisionTree、RandomForest、GradientBoost、AdaBoost、XGBoost
 ## Introduction：
 －Finding of EDA:  
-	1. Proportion of target variables(Transported) in Yes/No is nearly.  
-	2. The biggest proportion of age in be transported is under 18 years old, on the other hand, the smallest  proportion of age in be transported is between 18 and 40 years old.  
- 	3. Most of people won't buy other services and from earth.  
-  	4. Majority of single traveler can be transported.  
+1. **Proportion of Target Variables:**
+   - The distribution of the target variable (Transported) is nearly balanced between "Yes" and "No."
 
-－Data Engineering:  
-	1. PassengerID -> New feature: group unit,which family members,the number of family members in sequence and whether they are single.  
-	2. cabin -> New feature: Deck,Side and Number  
-	3. Age -> Divided into 6 groups according to age range.  
-	4. RoomService、FoodCourt、ShoppingMall、Spa、VRDeck -> Divided into 4 intervals according to consumption amount*by Median and Mean*.
-A total of 29 features have been added.  
+2. **Age Distribution:**
+   - The highest proportion of individuals transported falls in the age group under 18 years old. Conversely, the smallest proportion is observed in the age group between 18 and 40 years old.
+
+3. **Service Preferences:**
+   - A significant number of individuals seem to refrain from purchasing additional services and are likely from Earth.
+
+4. **Marital Status Impact:**
+   - The majority of single travelers appear to be more likely candidates for transportation.
+
+- Data Engineering:
+1. **PassengerID Transformation:**
+   - **New Feature:** Group unit indicating family members, including the sequential number of family members and a flag for whether they are single.
+
+2. **Cabin Transformation:**
+   - **New Features:** Deck, Side, and Number extracted from the original cabin feature.
+
+3. **Age Transformation:**
+   - Ages are categorized into six groups based on age ranges.
+
+4. **Consumption-related Features Transformation:**
+   - **RoomService, FoodCourt, ShoppingMall, Spa, VRDeck:**
+     - Divided into four intervals based on consumption amount, determined by Median and Mean calculations.
+
+**Total Features Added: 29**
 
 ## Conclusion
-After Comparing with the effect in 9 models can found XGboost,RandomForest better and use GridSearchCV to adjust parameters for best result. finally, I can get lowest validation_loss by trying Stacking XGBoost and RandomForest model. 
+Upon comparing the performance across nine different models, it is evident that XGBoost and RandomForest outperform the others. Further optimization using GridSearchCV for parameter tuning results in the best overall performance. The lowest validation loss is achieved by implementing a Stacking approach, combining XGBoost and RandomForest models.
 
 	   
 	   
