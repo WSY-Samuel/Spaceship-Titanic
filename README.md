@@ -1,7 +1,7 @@
 # Kaggle_Competition：Spaceship-Titanic
-### Rank：209/2,289(9.13%)
-### Target：Predict whether travelers will be transported to other dimensions(binary classification).
-### Models：SVC、naive_bayes、LogisticRegression、KNN、DecisionTree、RandomForest、GradientBoost、AdaBoost、XGBoost
+- **Rank：209/2,289(9.13%)**
+- **Target：Predict whether travelers will be transported to other dimensions(binary classification).**
+- **Models：SVC、naive_bayes、LogisticRegression、KNN、DecisionTree、RandomForest、GradientBoost、AdaBoost、XGBoost**
 ## Introduction：
 －Finding of EDA:  
 1. **Proportion of Target Variables:**
