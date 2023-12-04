@@ -27,7 +27,7 @@
    - Ages are categorized into six groups based on age ranges.
 
 4. **Consumption-related Features Transformation:**
-   - **RoomService, FoodCourt, ShoppingMall, Spa, VRDeck:**
+   - **RoomService, FoodCourt, ShoppingMall, Spa, VRDeck**
      - Divided into four intervals based on consumption amount, determined by Median and Mean calculations.
 
 **Total Features Added: 29**
